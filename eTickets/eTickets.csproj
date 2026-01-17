@@ -6,21 +6,4 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0">
-      <PrivateAssets>all</PrivateAssets>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Data\NewFolder\" />
-    <Folder Include="wwwroot\Pictures\ActorPics\" />
-    <Folder Include="wwwroot\Pictures\CinemaLogos\" />
-    <Folder Include="wwwroot\Pictures\MovieImages\" />
-    <Folder Include="wwwroot\Pictures\ProducerProfilePics\" />
-  </ItemGroup>
-
 </Project>
